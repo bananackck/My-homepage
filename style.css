@@ -1,0 +1,61 @@
+:root{
+    --marg: 10;
+}
+
+div{
+    border: 2px solid black;
+}
+
+header{
+    display: flex;
+    padding: 10;
+}
+.header-img-area{
+    width: 200;
+}
+.header-img{
+    width: 150;
+    margin: 2;
+}
+.header-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-component{
+    width: 75;
+    margin: 2 2 2 2;
+
+}
+
+.container{
+    /* display: flex; */
+
+    height: 100%;
+}
+
+.content-about-me{
+    display: flex;
+
+    /* height: 100; */
+}
+.my-photo{
+    margin: var(--marg);
+
+}
+.profile{
+    margin: var(--marg);
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.introduce{
+    margin: var(--marg);
+
+}
+.likes{
+    margin: var(--marg);
+}
